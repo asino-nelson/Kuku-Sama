@@ -19,7 +19,7 @@ const Hero = () => {
         <h1 className="text-3xl font-bold mb-4 text-yellow-500">
           Good Food, Great Times
         </h1>
-        <p className="text-lg">
+        <p className="text-lg md:px-44">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
           saepe quo corrupti, nihil cupiditate at sunt maxime iure dolores vero
           quos perferendis et.

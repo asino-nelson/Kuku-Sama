@@ -6,13 +6,13 @@ import MenuCategories from "../components/MenuCategories";
 const Menu = () => {
   return (
     <motion.div
-      className="flex flex-col items-center justify-center md:p-20 p-4 "
+      className="flex flex-col items-center justify-center md:p-20 p-4 mt-16 "
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
       transition={{ delay: 0.1, duration: 1 }}
       variants={{
-        hidden: { opacity: 0, y: 100 },
+        hidden: { opacity: 0, y: 50 },
         visible: { opacity: 1, y: 0 },
       }}
     >

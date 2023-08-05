@@ -13,16 +13,21 @@ const categories = [
     image: "/food2.jpg",
   },
   {
+    title: "Pizza",
+    description: "Enjoy our mouthwatering main course meals.",
+    image: "/food5.jpg",
+  },
+  {
     title: "Desserts",
     description: "Indulge in our delightful dessert options.",
-    image: "/food3.jpg",
-  },
+    image: "/food6.jpg",
+  }
 ];
 
 const MenuItem = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {categories.map((category, index) => (
           <MealCategory
             key={index}

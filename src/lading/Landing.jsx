@@ -6,19 +6,19 @@ import Open from "../scenes/Open";
 import Booking from "../scenes/Booking";
 import Testimonials from "../scenes/Testimonials";
 import Gallery from "../scenes/Gallery";
-import Footer from "../components/Footer";
+import WhyUs from "../scenes/WhyUs";
 
 const Landing = () => {
   return (
     <div className="bg-stone-800 text-white overflow-x-hidden">
       <Hero />
       <About />
+      <WhyUs />
       <Menu />
       <Open />
       <Booking />
       <Testimonials />
       <Gallery />
-      <Footer />
     </div>
   );
 };
