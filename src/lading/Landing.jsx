@@ -10,7 +10,7 @@ import WhyUs from "../scenes/WhyUs";
 
 const Landing = () => {
   return (
-    <div className="bg-stone-800 text-white overflow-x-hidden">
+    <div className="bg-slate-900 text-white overflow-x-hidden">
       <Hero />
       <About />
       <WhyUs />

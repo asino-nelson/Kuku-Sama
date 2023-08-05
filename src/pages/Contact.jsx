@@ -16,7 +16,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="bg-stone-900 py-20 text-white">
+    <section className="bg-slate-900 py-20 text-white">
       <motion.div
         className="flex justify-center w-full font-semibold md:text-4xl text-3xl my-10"
         initial="hidden"
@@ -76,7 +76,7 @@ const Contact = () => {
         </motion.div>
 
         <motion.div
-          className="basis-1/2 mt-10 md:mt-0"
+          className="basis-1/2 mt-10 md:mt-0 md:px-20"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -164,8 +164,8 @@ const Contact = () => {
 
             <motion.button
               type="submit"
-              className="w-full mt-5 py-3 text-deep-blue font-semibold bg-orange-600 rounded
-               hover:bg-orange-500 transition duration-300"
+              className="w-full mt-5 py-3 text-deep-blue font-semibold bg-yellow-400 rounded
+               hover:bg-yellow-500 transition duration-300"
               whileHover={{ scale: 1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => (form.target = "_blank")}

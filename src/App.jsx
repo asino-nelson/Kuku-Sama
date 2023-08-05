@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
 import MenuPage from "./pages/MenuPage";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/menu" element={<MenuPage />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/contact" element={<Contact />} /> 
       </Routes>
       <Footer/>
     </BrowserRouter>
