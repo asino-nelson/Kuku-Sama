@@ -13,7 +13,7 @@ const Navbar = ({ isTopOfPage }) => {
 
   return (
     <nav
-      className={`${navBarBackground} w-full flex items-center justify-between fixed text-white py-5 px-14 z-40`}
+      className={`${navBarBackground} w-full flex items-center justify-between fixed text-white md:py-5 py-3 md:px-14 px-8 z-40`}
     >
       <Link to="/" className="text-xl text-yellow-500 font-bold">
         Kuku Sama
@@ -45,7 +45,7 @@ const Navbar = ({ isTopOfPage }) => {
           onClick={() => setIsMenuToggled(!isMenuToggled)}
         >
           {!isAboveSmallScreen && isMenuToggled ? (
-            <FaTimes size={24} />
+            ""
           ) : (
             <FaBars size={24} />
           )}
@@ -68,7 +68,7 @@ const Navbar = ({ isTopOfPage }) => {
           <div className="flex  justify-end px-7 py-2">
             {/**Close btn */}
             <motion.button
-              className="rounded-full text-white pt-7 pr-24 hover:text-white/70 transition duration-100"
+              className="rounded-full text-white pt-4 pr-12 hover:text-white/70 transition duration-100"
               alt="menu"
               whileTap={{ scale: 0.9 }}
               onClick={() => setIsMenuToggled(!isMenuToggled)}

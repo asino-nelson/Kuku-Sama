@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Booking = () => {
   return (
-    <div className=" grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 grid-rows-2 justify-center items-center gap-9 md:px-48 px-5 h-screen">
+    <div className=" grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 grid-rows-2 justify-center items-center gap-9 md:px-48 px-5 h-fit mb-20">
       <motion.div
         className="flex flex-col md:items-start items-center"
         initial="hidden"
@@ -15,7 +15,7 @@ const Booking = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <h2 className="text-3xl font-semibold text-center text-yellow-500">
+        <h2 className="text-3xl font-semibold text-center text-yellow-500 px-2">
           Discover the True Meaning of Taste
         </h2>
         <p className="mt-9">
@@ -30,7 +30,7 @@ const Booking = () => {
       </motion.div>
 
       <motion.img
-        className="w-full md:mt-0 -mt-32"
+        className="w-full md:mt-0"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
