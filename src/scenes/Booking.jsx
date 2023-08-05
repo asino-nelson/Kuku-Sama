@@ -30,7 +30,7 @@ const Booking = () => {
       </motion.div>
 
       <motion.img
-        className="w-full md:mt-0 -mt-10"
+        className="w-full md:mt-0 -mt-32"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}

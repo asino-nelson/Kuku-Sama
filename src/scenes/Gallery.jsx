@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Gallery = () => {
   return (
     <motion.div
-      className=" flex flex-col items-center justify-center py-20 md:px-0 px-5 h-screen"
+      className=" flex flex-col items-center justify-center py-20 md:px-0 px-5 md:h-screen h-fit"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
@@ -21,7 +21,7 @@ const Gallery = () => {
       </p>
 
       <motion.div
-        className="grid grid-cols-3 md:w-[50%] w-full grid-rows-2 items-center justify-center gap-3 mt-14"
+        className="grid md:grid-cols-3 grid-cols-2 md:w-[50%] w-full md:grid-rows-2 grid-rows-3 items-center justify-center gap-3 mt-14"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -44,7 +44,7 @@ const Gallery = () => {
         />
         <img className="col-span-1 row-span-1" src="/food5.jpg" alt="/" />
       </motion.div>
-      <button className="mt-5 bg-yellow-500 px-4 py-2 rounded-md">
+      <button className="mt-16 bg-yellow-500 px-4 py-2 rounded-md">
         View gallery
       </button>
     </motion.div>

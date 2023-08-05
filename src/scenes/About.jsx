@@ -16,12 +16,12 @@ const About = () => {
         }}
       >
         <div className="flex flex-col md:gap-3 gap-2 mt-14 ">
-          <img className="w-[230px] h-[30vh]" src="/chicken.jpg" alt="/" />
-          <img className="w-[230px] h-[30vh]" src="/fish.jpg" alt="/" />
+          <img className="md:w-[230px] w-[200px] md:h-[30vh] h-[25vh]" src="/chicken.jpg" alt="/" />
+          <img className="md:w-[230px] w-[200px] md:h-[30vh] h-[25vh]" src="/fish.jpg" alt="/" />
         </div>
         <div className="flex flex-col md:gap-3 gap-2 ">
-          <img className="w-[230px] h-[30vh]" src="/food4.jpg" alt="/" />
-          <img className="w-[230px] h-[30vh]" src="/food5.jpg" alt="/" />
+          <img className="md:w-[230px] w-[200px] md:h-[30vh] h-[25vh]" src="/food4.jpg" alt="/" />
+          <img className="md:w-[230px] w-[200px] md:h-[30vh] h-[25vh]" src="/food5.jpg" alt="/" />
         </div>
       </motion.div>
 
