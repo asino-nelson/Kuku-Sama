@@ -24,7 +24,7 @@ const Booking = () => {
           tempore temporibus cum enim quae perspiciatis explicabo. Error amet
           esse odio.
         </p>
-        <button className="mt-9 text-black bg-yellow-500 rounded-md px-4 py-2 w-fit">
+        <button className="mt-9 text-black bg-yellow-500 rounded-sm w-full md:w-fit px-16 py-3 ">
           Book A Table
         </button>
       </motion.div>
