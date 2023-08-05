@@ -26,7 +26,7 @@ const About = () => {
       </motion.div>
 
       <motion.div
-        className="md:p-9 p-4 "
+        className="md:p-9 p-4 md:mt-0 -mt-10"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
