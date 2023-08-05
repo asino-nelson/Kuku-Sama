@@ -16,7 +16,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="bg-slate-900 py-20 text-white">
+    <section className="bg-stone-800 py-20 text-white">
       <motion.div
         className="flex justify-center w-full font-semibold md:text-4xl text-3xl my-10"
         initial="hidden"

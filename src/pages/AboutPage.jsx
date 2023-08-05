@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="bg-slate-900 text-white">
+    <div className="bg-stone-800 text-white">
       <img
         className="w-full md:h-[60vh] h-[40vh] object-cover"
         src="/food7.jpg"

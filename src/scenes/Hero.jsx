@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center md:px-44 px-4 text-center bg-[url('/food7.jpg')] bg-fixed bg-cover bg-center bg-no-repeat h-[90vh] text-white">
-      <div className="absolute w-full h-full bg-slate-900 bg-opacity-60" />
+    <div className="flex flex-col items-center justify-center md:px-44 px-4 text-center bg-[url('/food7.jpg')] bg-fixed bg-cover bg-center bg-no-repeat md:h-[90vh] h-[80vh] text-white">
+      <div className="absolute w-full md:h-[90vh] h-[80vh] bg-stone-900 bg-opacity-60" />
       <motion.div
         className="relative"
         initial="hidden"

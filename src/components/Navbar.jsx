@@ -9,7 +9,7 @@ const Navbar = ({ isTopOfPage }) => {
   const isAboveSmallScreen = useMediaQuery("(min-width: 768px)");
   const navBarBackground = isTopOfPage
     ? ""
-    : "bg-slate-950 transition duration-500";
+    : "bg-stone-900 transition duration-500";
 
   return (
     <nav
@@ -52,7 +52,7 @@ const Navbar = ({ isTopOfPage }) => {
       {/**Mobile menu */}
       {!isAboveSmallScreen && isMenuToggled && (
         <motion.div
-          className="fixed top-0 bottom-0 h-full bg-slate-950 w-full"
+          className="fixed top-0 bottom-0 h-full bg-stone-900 w-full"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

@@ -7,7 +7,7 @@ const Open = () => {
       <h2 className="md:text-4xl text-3xl text-center font-bold mb-10 text-yellow-500">
         Opening Hours
       </h2>
-      <div className="bg-stone-600 rounded-sm">
+      <div className="bg-stone-700 rounded-sm">
         <motion.div
           className="flex flex-col items-center justify-cente md:p-20 p-8 py-20 "
           initial="hidden"

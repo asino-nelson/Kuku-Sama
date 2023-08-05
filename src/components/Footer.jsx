@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-950 text-white grid md:grid-cols-4 grid-cols-1 md:gap-0 gap-10 items-center justify-around py-12 md:px-20 px-10">
+    <div className="bg-stone-900 text-white grid md:grid-cols-4 grid-cols-1 md:gap-0 gap-10 items-center justify-around py-12 md:px-20 px-10">
       <h1 className="font-bold text-xl text-yellow-500 text-center md:-mt-20 mt-0">
         Kuku Sama
       </h1>
